@@ -4,8 +4,8 @@
 ¡Es fácil! Simplemente abre tu terminal y ejecuta:  
 make
 
-Compilación manual 📝
-##Si prefieres hacerlo paso a paso, sigue estas instrucciones:
+# Compilación manual 📝
+## Si prefieres hacerlo paso a paso, sigue estas instrucciones:
 
 # 1. Compila el scanner 
 flex scanner.l
