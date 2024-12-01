@@ -5,7 +5,7 @@
 make
 
 # Compilación manual 📝
-## Si prefieres hacerlo paso a paso, sigue estas instrucciones:
+Si prefieres hacerlo paso a paso, sigue estas instrucciones:
 
 # 1. Compila el scanner 
 flex scanner.l
@@ -19,4 +19,4 @@ gcc -Wall -g *.c -lfl
 # 4. Ejecuta el programa 
 ./a.out < enunciado/entrada.txt > enunciado/salida.txt
 
-#✨ Nota: Por defecto, el ejecutable se llamará a.out (ya está incluido en el .gitignore).
+# ✨ Nota: Por defecto, el ejecutable se llamará a.out (ya está incluido en el .gitignore).
