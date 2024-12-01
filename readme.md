@@ -1,28 +1,30 @@
-## Como compilar y ejecutar
+✨ Cómo compilar y ejecutar el programa
+Usando el Makefile 🛠️
+¡Es fácil! Simplemente abre tu terminal y ejecuta:
 
-# Usando makefile
-```
 make
-```
+Compilación manual 📝
+Si prefieres hacerlo paso a paso, sigue estas instrucciones:
 
-# Manualmente
-1. Compilar el Scanner (`scanner.l`)
-```bash
+Compila el scanner
+Ejecuta el siguiente comando para procesar el archivo scanner.l:
+
+
 flex scanner.l
-```
+Compila el parser
+Procesa el archivo parser.y con este comando:
 
-2. Compilar el parser (`parser.y`)
-```bash
+
 bison -d parser.y
-```
+Compila los archivos .c
+Junta todos los archivos .c en un solo ejecutable con:
 
-3. Compilar todos los archivos `.c`
-```bash
+
 gcc -Wall -g *.c -lfl
-```
-*NOTA: Por defecto, el nombre del ejecutable será a.out (incluído en .gitignore)*
+✨ Nota: Por defecto, el ejecutable se llamará a.out (ya está incluido en el .gitignore).
 
-4. Ejecutar
-```bash
-./a.out < enunciado/entrada.txt  > enunciado/salida.txt 
-```
+Ejecuta el programa
+Una vez compilado, puedes ejecutarlo con:
+
+
+./a.out < enunciado/entrada.txt > enunciado/salida.txt
